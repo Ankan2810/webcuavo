@@ -219,3 +219,58 @@ h1{
         0 0 98px #ff0000;
     }
 }
+
+img{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 20%;
+    right: 23%;
+}
+@media only screen and (min-width: 320px) {
+    img{
+        display: none;
+    }
+
+    h1{
+        right: 5%;
+    }
+
+    .star{
+        top: 36%;
+        left: 44.4%;
+    }
+
+    .t1{
+        top: 40%;
+        left: 50%;
+    }
+    
+    .t2{
+        top: 50%;
+        left: 50%;
+    }
+
+    .t3{        
+        top: 60%;
+        left: 50%;
+    }
+
+    .stem{
+        top: 82.4%;
+        left: 50%;
+    }
+    
+    .snow-ground{
+        top: 95%;
+        left: 50%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 1024px){
+
+}
